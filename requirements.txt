@@ -1,0 +1,5 @@
+--find-links https://storage.googleapis.com/jax-releases/jax_releases.html
+jax==0.1.71
+jaxlib==0.1.50
+relaxed
+git+http://github.com/scikit-hep/pyhf.git@diffable_json
