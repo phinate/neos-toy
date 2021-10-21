@@ -45,6 +45,8 @@ repos:
 -   repo: https://github.com/nbQA-dev/nbQA
     rev: 1.1.1
     hooks:
+    -   id: nbqa-black
+        additional_dependencies: [black==21.9b0]
     -   id: nbqa-pyupgrade
         additional_dependencies: [pyupgrade==2.29.0]
 -   repo: https://github.com/codespell-project/codespell
